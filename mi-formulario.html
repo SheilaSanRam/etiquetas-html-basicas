@@ -1,0 +1,77 @@
+<!DOCTYPE HTML>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <link href='formato-formulario.css' rel='stylesheet' type='text/css'/>
+    <title> Mi formulario </title>
+    <body>
+        <h1>Bienvenido</h1>
+        <h3> Por favor completa el formulario para continuar </h3>
+
+
+        <div>
+            <form method="POST">
+                <h5> Ingresa los siguientes datos</h5>
+                <p>
+                    <label for="name"> Nombre(s) </label>
+                    <input type="text" name="name" />
+                </p>
+                <p>
+                    <label for="name"> Apellidos </label>
+                    <input type="text" name="apellidos" />
+                </p>
+                
+                <p>
+                    <label for="email"> Correo electrónico </label>
+                    <input type="email" name="email" />
+                </p>
+                    <label for="user"> Nombre de usuario</label>
+                    <input type="name" name="user" />
+                </p>
+                
+                <p>
+                    
+                    <label for=""> Selecciona tu grupo de edad </label>
+                    <select name="edad" id="">
+                        <option value="1"> Menor a 18 años </option>
+                        <option value="2"> 18-25 años </option>
+                        <option value="3"> 26-30 años </option>
+                        <option value="4"> 31-35 años </option>
+                        <option value="5"> 36-40 años </option>
+                        <option value="6"> Mayor a 40 años </option>
+                    </select>
+                </p>
+                <p>
+                    <label for="">Selecciona zona de residencia </label>
+                    <br/>
+                    <br/>
+                    <label for=""> Zona noreste</label>
+                    <input type='radio' name="zona" id=""/>
+                    <label for=""> Zona noroeste</label>
+                    <input type='radio' name="zona" id=""/>
+                    <label for=""> Zona centro </label>
+                    <input type='radio' name="zona" id=""/>
+                    <label for=""> Zona sureste</label>
+                    <input type='radio' name="zona" id=""/>
+                    <label for=""> Zona suroeste</label>
+                    <input type='radio' name="zona" id=""/>
+                </p>
+
+
+                <p>
+                    <label for="descripcion"> Cuentanos acerca de ti </label>
+                    <br/>
+                    <textarea name="" id="" cols="60" rows="15"></textarea>
+                </p>
+                <p>
+                    <!-- Para el envío de datos  -->
+                    <!-- <input type="submit" value= "Guardar datos"> -->
+                    <button type="submit"> Guardar datos </button>
+                </p>
+            </form>
+        </div>
+    </body>
+</head>
+
+</html>

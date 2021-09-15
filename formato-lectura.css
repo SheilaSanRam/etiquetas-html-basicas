@@ -1,0 +1,39 @@
+.cuerpo{
+    background-color: rgb(179, 227, 241);
+    margin:60px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h1{
+    text-align:right;
+}
+.comic{
+    color:red;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+.final{
+    text-align: center;
+    font-style: italic;
+    margin: 40px 40px auto;
+    font-size: smaller;
+}
+
+.naranja{
+    color:rgb(255, 123, 0);
+}
+
+.naranjaf{
+    color: rgb(255, 123, 0);
+    font-weight:bolder ;
+}
+
+
+.naranjai{
+    color:rgb(255, 123, 0);
+    font-style:italic ;
+}
+.verde{
+    color:green;
+    background-color: white;
+    font-style:italic;
+}

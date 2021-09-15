@@ -1,0 +1,10 @@
+div{
+    align:center;
+    background-image: radial-gradient(circle at 0% 0%, #ffd3ff 0, #ffcbff 10%, #ffc2ff 20%, #ffb8ff 30%, #ffabff 40%, #f29df2 50%, #cb8ede 60%, #aa82cb 70%, #8e77ba 80%, #766eab 90%, #62679e 100%);
+    text-align: justify;
+    width:600px;
+    height:600px;
+    margin: 0 auto;
+    font-weight: bold;
+}
+

@@ -1,0 +1,39 @@
+.principal{
+    background-color: rgb(238, 234, 234) ;
+}
+.sub{
+    background-color: rgb(196, 190, 190);
+}
+div {
+    background-color: rgb(194, 190, 190);
+}
+
+h4{
+    color:red;
+    background-color: rgb(131, 125, 125);
+}
+
+.formato{
+    color:blue;
+    text-decoration-line: underline;
+}
+
+.años{
+    color:rgb(38, 172, 38);
+
+}
+h2{
+    text-align:center;
+}
+.sup{
+    text-align:center;
+}
+
+.datos{
+    background-color: rgb(190, 183, 183);
+}
+
+h5{
+    color:purple;
+    background-color: rgb(131, 125, 125);
+}
